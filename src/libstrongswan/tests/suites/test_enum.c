@@ -28,7 +28,6 @@ enum {
 	CONT5,
 } test_enum_cont;
 
-/* can't be static */
 enum_name_t *test_enum_cont_names;
 
 ENUM_BEGIN(test_enum_cont_names, CONT1, CONT5,
@@ -46,7 +45,6 @@ enum {
 	SPLIT5 = 255,
 } test_enum_split;
 
-/* can't be static */
 enum_name_t *test_enum_split_names;
 
 ENUM_BEGIN(test_enum_split_names, SPLIT1, SPLIT2,
